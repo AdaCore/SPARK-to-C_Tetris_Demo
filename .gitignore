@@ -1,0 +1,5 @@
+*.o
+*.d
+*.bexch
+*-loc.xml
+*.db
