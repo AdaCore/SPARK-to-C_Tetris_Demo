@@ -1,0 +1,16 @@
+
+project SPARK_Tetris_Native_C is
+   for Languages use ("C");
+
+   for Main use ("main.c");
+   for Source_Dirs use ("src", "../SPARK_Tetris_Arduboy");
+   for Languages use ("C");
+
+   for Object_Dir use "obj";
+   for Exec_Dir use "..";
+   for Create_Missing_Dirs use "true";
+
+   package Builder is
+      for Executable ("main.c") use "tetris_native_in_c";
+   end Builder;
+end SPARK_Tetris_Native_C;
