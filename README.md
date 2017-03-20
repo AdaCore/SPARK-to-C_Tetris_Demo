@@ -13,7 +13,7 @@ button.
 
  - `SPARK_Tetris_Arduboy`: Arduino project to load on the Arduboy
  - `SPARK_Tetris_Lib`: Tetris implementation in SPARK (used to generate the C code)
- - `SPARK_Tetris_Native`: Windows/Linux console fontend to try the generated code
+ - `SPARK_Tetris_Native`: Windows/Linux console frontend to try the generated code
  
 ---
 
